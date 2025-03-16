@@ -6,6 +6,7 @@ import matplotlib.pyplot as pyplot
 from pandas.plotting import scatter_matrix
 
 
+
 filename = "water_quality/water_potability.csv"
 # names = ['ph', 'Hardness', 'Solids', 'Chloramines', 'Sulfate', 'Conductivity', 'Organic_carbon', 'Trihalomethanes', 'Turbidity', 'Potability']
 data = read_csv(filename)
@@ -47,3 +48,6 @@ pyplot.show()
 
 scatter_matrix(data)  # строит матрицу рассеяния
 pyplot.show()
+
+
+
